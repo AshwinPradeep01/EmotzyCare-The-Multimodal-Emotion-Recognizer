@@ -1,5 +1,9 @@
 # EmotzyCare-The-Multimodal-Emotion-Recognizer
 
+
+### The fine-tuned model for the bert can be retained in drive: https://drive.google.com/file/d/157O-UxdfX68wn97UsAVA7GDUghQOph1l/view?usp=drive_link
+### The FER 13 Dataset : https://drive.google.com/drive/u/0/folders/1bVhB5dtVeEpuZCPh9fidRklZkfYjQMzG
+
 EmotzyCare: A Multimodal Emotion Recognition System for Patients
 
 #Introduction
