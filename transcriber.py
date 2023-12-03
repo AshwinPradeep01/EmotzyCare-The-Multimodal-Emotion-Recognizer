@@ -10,7 +10,7 @@ def transcribe():
         # URL of the file to transcribe
         # FILE_URL = 'D:\\Emotzy\\Emotzy\\uploads\\recorded_audio.wav'
         # You can also transcribe a local file by passing in a file path
-        FILE_URL = 'uploads/recorded_audio.wav'
+        FILE_URL = 'output.wav'
         transcriber = aai.Transcriber()
         transcript = transcriber.transcribe(FILE_URL)
         print("transcribed:",transcript.text)

@@ -1,5 +1,6 @@
 import torch
 from transformers import BertModel, BertTokenizer
+from record import audio_input
 
 
 # Load the saved model and tokenizer
@@ -37,6 +38,7 @@ def get_emotion(review_text):
     print(f"Review text:{review_text}")
     print(f"Sentiment:{prediction}")
 
+res = audio_input()
 
 review_text2 = "I m on cloud nine feeling so delighted"
-get_emotion(review_text2)
+get_emotion(res)
